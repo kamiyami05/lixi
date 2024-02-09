@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bai2.js"></script>
+</head>
+<body>
+    <div class="container" style="align-items: center; justify-content: center;">
+        <div class="row">
+            <div class="col">
+                <h1>Body Mass Index</h1>
+                <hr>
+                <form>
+                    <table align="center" class="table">
+                        <tr>
+                            <td>Name</td>
+                            <td>
+                                <input type="text" id="name" style="width: 200px;"> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sex</td>
+                            <td>
+                                <input type="radio" name="gender" checked value="Male"> Male
+                                <input type="radio" name="gender" value="Female"> Female
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Weight</td>
+                            <td>
+                                <input type="text" id="weight" style="width: 150px;">(kg)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Height</td>
+                            <td>
+                                <input type="text" id="height" style="width: 150px;">(m)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Your age</td>
+                            <td>
+                                <select id="age">
+                                    <option value="0">--Pls select--</option>
+                                    <option value="6-16">6-16</option>
+                                    <option value="17-25">17-25</option>
+                                    <option value="26+">26+</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="button" onclick="tinh()">Calculate</button>
+                                <button type="reset">Reset</button>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="msg"></div>
+                </form>               
+            </div>
+        </div>
+    </div>
+</body>
+</html>

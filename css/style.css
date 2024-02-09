@@ -1,0 +1,112 @@
+#list li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aqua {
+    color: blue;
+    
+}
+
+.vertical-line {
+    border-left: 1px solid #000;
+    height: 100px; 
+    margin: 0 10px;
+}
+
+#block {
+    border: 1px solid lightgray; /* Định dạng viền trong suốt */
+    border-radius: 5px; /* Định dạng độ cong viền */
+    padding: 10px; /* Khoảng cách bên trong viền */
+    display: flex; /* Sử dụng flexbox để xếp hàng ngang */
+}
+
+.block {
+    flex: 3; /* Phần tử chiếm toàn bộ không gian trống */
+    padding: 5px; /* Khoảng cách giữa các phần tử */
+}
+
+#line {
+    border-right: 1px solid lightgray; /* Đường dọc */
+    height: 100%; /* Chiều cao bằng chiều cao của container */
+    margin: 0 10px; /* Khoảng cách với các phần tử xung quanh */
+    padding: 10px;
+}
+
+.block-1, .block-3 {
+    flex: 1; /* Chiếm 25% không gian còn lại */
+    flex-basis: 25%; /* Cơ sở kích thước */
+}
+
+.block-2 {
+    flex: 2; /* Chiếm 50% không gian còn lại */
+    flex-basis: 50%; /* Cơ sở kích thước */
+}
+
+.container {
+    display: flex; /* Sử dụng flexbox để tạo hai cột */
+    text-align: left;
+    padding-left: 0px;
+}
+.cot {
+    padding-right: 50px;
+}
+
+.prices {
+    display: flex;
+}
+
+.discounted-price {
+    margin-right: 10px; /* Khoảng cách giữa hai giá trị */
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: lightgrey;
+}
+
+
+.buy-button, .details-button {
+    padding: 7px 17px; /* Kích thước nút */
+    margin-right: 7px; /* Khoảng cách giữa hai nút */
+    background-color: blue; /* Màu nền của nút "Buy Now" */
+    color: white; /* Màu chữ */
+    border: none; /* Loại bỏ viền */
+    cursor: pointer; /* Con trỏ khi rê chuột */
+    border-radius: 5px; /* Độ cong của góc */
+}
+
+.details-button {
+    background-color: gray; /* Màu nền của nút "Details" */
+}
+
+.khoi2 {
+    margin-left: 15px;
+}
+
+#khoi {
+    display: flex;
+}
+.khoi1, .khoi2 {
+    flex: 3;
+    flex-basis: 50%;
+}
+
+.table {
+    margin-bottom: 15px;
+
+    border: none;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: none;
+    padding: 8px; 
+}
+
+
+
+

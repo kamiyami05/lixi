@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bai3.js"></script>
+    <style>
+        .container {
+            width: 30%; 
+            border: 2px solid black;
+            padding: 25px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="comparisonForm">
+        <div class="container">
+            <div class="bear" style="text-align: center;">
+                <h5 style="color: blue;">SO SÁNH HAI ĐỘ DÀI CHỮ TRONG HAI Ô</h5>
+                <span style="color: blue; font-size: 18px;">Trong hai ô sau ô nào có độ dài lớn hơn?</span>
+                <br><br><hr>
+                <span style="color: orangered;">Box A:</span> <input type="text" id="boxA" placeholder="Mời nhập A">
+                <br><br>
+                <span style="color: orangered;">Box B:</span> <input type="text" id="boxB" placeholder="Mời nhập B">
+                <br><br>
+                <button type="button" onclick="sosanh()">So sanh</button>
+                <button type="reset">Reset</button>
+                <br><br>
+                <input type="radio" id="A"> <span style="color: black;">Box A</span>
+                &nbsp;
+                <input type="radio" id="Bang"> <span style="color: black;">Bằng nhau</span>
+                &nbsp;
+                <input type="radio" id="B"> <span style="color: black;">Box B</span>
+                
+            </div>
+        </div>
+    </form>
+</body>
+</html>
